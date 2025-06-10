@@ -238,7 +238,7 @@ const AddCarPage: React.FC = () => {
                   onChange={handleInputChange}
                   maxLength={50}
                   placeholder="Enter car name"
-                  className={`w-full rounded-[51px] ${
+                  className={`w-full rounded-[50px] ${
                     errors.name ? "border-red-500" : ""
                   }`}
                 />
@@ -495,7 +495,7 @@ const AddCarPage: React.FC = () => {
                   value={formData.imageUrl}
                   onChange={handleInputChange}
                   placeholder="https://unsplash.com/photos/black-ford-mustang-coupe-parked-near-green..."
-                  className="w-full text-sm font-regular font-nunito text-black rounded-[51px]"
+                  className="w-full text-sm font-regular font-nunito text-black rounded-[50px]"
                 />
               </div>
 
